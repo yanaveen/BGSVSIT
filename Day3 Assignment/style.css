@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Vujahday+Script&display=swap');
+body{
+    background-color: rgb(219, 219, 201);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-color: lightblue;
+    padding:1% ;
+}
+
+h1{
+    color: rgb(000, 000, 0);
+}
+
+.container h3{
+    background-color: rgb(83, 90, 88);
+    color: rgb(52, 165, 42);
+    padding: 1%;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 0.1em;
+}
+
+/*div{
+    font-size: 10px;
+}*/
+
+p{
+    color: hsl(9, 89%, 45%);
+    font-family: 'Vujahday Script', Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.6em;
+}
+#second.p{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+
+.categories{
+    border: 1px solid darkred;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories h3{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 0%;
+    list-style: none;
+}
+
+.categories a{
+    text-decoration:none;
+    color:black;
+}
+ .categories a:hover{
+     text-decoration: underline;
+     color: red;
+ }
+
+ .categories li{
+     padding-bottom: 6px;
+     border-bottom:  1px dotted #333;
+ }
+
+ .my-form{
+     padding: 20px;
+ }
+
+ .my-form .form-group{
+     padding: 20px;
+ }
+
+ .my-form label{
+     display: block;
+ }
+
+ .my-form input[type="text"], .my-form textarea{
+     padding: 8px;
+     width: 100%;
+ }
+
+ .button:hover{
+     background: red;
+     cursor: pointer;
+ }
+
+ .button{
+    height: 50px;
+    padding: 0;
+    background-color: rgb(114, 158, 110);
+    border: none;
+    outline: none;
+    border: 5px;
+    overflow: hidden;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+ }
