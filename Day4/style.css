@@ -1,0 +1,149 @@
+body{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(20, 19, 19);
+
+}
+
+#showcase {
+    background-image: url('./images/img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: #797960;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: 1px solid yellow;
+
+}
+
+header a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header li{
+    display: inline;
+    padding: 20px;
+}
+
+header .branding{
+    float: left;
+}
+
+header nav{
+    float: right;
+    margin-top: 20px;
+}
+
+header .highlight{
+    color: #fc0;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: #ab9;
+    font-weight: bold;
+}
+
+/*#showcase{
+    min-height: 600px;
+    background: url('./images/img.jpg');
+    background-repeat: no-repeat; 
+    background-size: 80% 10%;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+}*/
+
+#showcase h1{
+    font-size: 55px;
+}
+
+#showcase p{
+    font-size: 20px;
+}
+#boxes{
+    margin-top: 20px;
+}
+
+#boxes .box{
+    float:left;
+    text-align: center;
+    width: 33%;
+    padding: 10px;
+}
+
+#boxes .box2 img{
+    width: 180px;
+    padding-left: 0%;
+    margin-left: 10%;
+}
+
+#boxes .box p{
+    color: whitesmoke;
+    padding: auto;
+}
+
+#boxes .box2 p{
+    color: whitesmoke;
+    padding: auto;
+    margin-left: 10%;
+    text-align: center;
+}
+
+#boxes .box2 h3{
+    color: whitesmoke;
+    margin-left: 10%;
+    text-align: center;
+}
+
+#boxes .box h3{
+    color: whitesmoke;
+}
+
+footer{
+    padding: 20px;
+    margin: 20px;
+    color: #fff;
+    background-color: yellowgreen;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#sidebar{
+    float:right;
+    color: whitesmoke;
+    width: 30%;
+}
+
+#main-col{
+    float: left;
+    color: whitesmoke;
+    width: 50%;
+}
+
+/*@media(max-width)
