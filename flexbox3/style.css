@@ -1,0 +1,36 @@
+*{
+    box-sizing:border-box;
+}
+
+.box {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    padding: 10px;
+}
+.box1 {background: red;}
+.box2 {background: yellow;}
+.box3 {background: green;}
+.box4 {background: blue;}
+.box5 {background: orangered;}
+.box6 {background: black;}
+.box7 {background: pink;}
+.box8 {background: brown;}
+.box9 {background: violet;}
+.box10 {background: skyblue;}
+
+.container{
+    display: flex;
+}
+
+.container{
+    display: flex;
+    border: 10px solid black;
+    height: 100vh;
+    flex-wrap: wrap;
+    align-content:space-between ;
+}
+
+.box{
+    width: 33.3%;
+}
